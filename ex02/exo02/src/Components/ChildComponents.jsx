@@ -10,17 +10,8 @@ const ChildComponent = ({ characters, addCharacter }) => {
 
     return (
         <div>
-            <input
-                type="text"
-                placeholder="Nom du personnage"
-                value={newCharacter.name}
-                onChange={(e) => setNewCharacter({ ...newCharacter, name: e.target.value })}
-            />
-            <input
-                type="text"
-                placeholder="Âge du personnage"
-                value={newCharacter.age}
-                onChange={(e) => setNewCharacter({ ...newCharacter, age: e.target.value })}
+            <input type="text" placeholder="Nom du personnage"value={newCharacter.name} onChange={(e) => setNewCharacter({ ...newCharacter, name: e.target.value })}/>
+            <input type="text" placeholder="Âge du personnage"value={newCharacter.age} onChange={(e) => setNewCharacter({ ...newCharacter, age: e.target.value })}
             />
             <button onClick={handleAddCharacter}>Ajouter un Personnage</button>
         </div>

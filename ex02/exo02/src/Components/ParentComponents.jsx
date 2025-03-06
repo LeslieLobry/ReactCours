@@ -18,9 +18,7 @@ const ParentComponent = () => {
             <h1>Personnages de Harry Potter</h1>
             <ul>
                 {characters.map((character, index) => (
-                    <li key={index}>
-                        <strong>{character.name}</strong>: {character.age}
-                    </li>
+                    <li key={index}>{character.name}: {character.age}</li>
                 ))}
             </ul>
             <ChildComponent characters={characters} addCharacter={addCharacter} />
