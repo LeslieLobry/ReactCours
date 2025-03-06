@@ -1,5 +1,4 @@
 
-
 import TableRow from "../../Components/TableRow/TableRow"
 const FirstComponent = () => {
   
@@ -8,7 +7,7 @@ const FirstComponent = () => {
         <div>
             <h1 className="title">My Personn</h1>
           
-            <table className="table table-dark ">
+            <table className="table table-dark table-striped ">
                 <thead>
                     <tr>
                         <th>#</th>

@@ -4,8 +4,6 @@ const TableRow = () => {
     let lastName = ["Dupont", "Dupont", "Dupont", "Martez"]
     return ( 
         <>
-          
-   
         <tr>
             <td>{id.map((id, index)=> <p key={index}>{id}</p>)}</td>
             <td>{firstName.map((prenom, index)=> <p key={index}>{prenom}</p>)}</td>
@@ -16,3 +14,5 @@ const TableRow = () => {
 }
  
 export default TableRow
+
+
