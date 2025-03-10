@@ -8,18 +8,18 @@ const AffichageContact = ({ contacts }) => {
 
     return (
         <div className="container mt-5">
-        <table className="table table-dark">
+        <table className="table">
           <thead>
-            <tr className="table table-dark">
-              <th>Prénom</th>
-              <th>Nom</th>
-              <th>Email</th>
-              <th>Téléphone</th>
+            <tr className="bg-success">
+              <th className="bg-success-subtle">Prénom</th>
+              <th className="bg-danger">Nom</th>
+              <th className="bg-warning-subtle">Email</th>
+              <th className="bg-success">Téléphone</th>
             </tr>
           </thead>
           <tbody>
             {contacts.map((contact, index) => (
-              <tr key={index}>
+              <tr key={index}className="bg-success">
                 <td>{contact.prenom}</td>
                 <td>{contact.nom}</td>
                 <td>{contact.email}</td>
