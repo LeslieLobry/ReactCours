@@ -4,12 +4,14 @@
     {   "id": 1,
         "nom": "Ordinateur portable",
         "description": "Un ordinateur portable puissant avec un écran de 15 pouces et un processeur Intel Core i7.",
-        "prix": 900
+        "prix": 900,
+        "image":"https://i.postimg.cc/MTj8kN4L/pexels-jeshoots-238118.jpg"
     },
     {   "id": 2,
         "nom": "Smartphone",
         "description": "Un smartphone haut de gamme avec un appareil photo de 12 MP et une batterie longue durée.",
-        "prix": 800
+        "prix": 800, 
+        "image":"https://i.postimg.cc/jqwjKkPt/pexels-bishenova-1148603742-31057685.jpg"
     },
     {   "id": 3,
         "nom": "Cafetière",
