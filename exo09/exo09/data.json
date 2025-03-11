@@ -1,0 +1,31 @@
+{
+      "produits": [
+   
+    {   "id": 1,
+        "nom": "Ordinateur portable",
+        "description": "Un ordinateur portable puissant avec un écran de 15 pouces et un processeur Intel Core i7.",
+        "prix": 900
+    },
+    {   "id": 2,
+        "nom": "Smartphone",
+        "description": "Un smartphone haut de gamme avec un appareil photo de 12 MP et une batterie longue durée.",
+        "prix": 800
+    },
+    {   "id": 3,
+        "nom": "Cafetière",
+        "description": "Une cafetière automatique avec programmation et capacité de 12 tasses.",
+        "prix": 100
+    },
+    {   "id": 4,
+        "nom": "Vélo électrique",
+        "description": "Un vélo électrique pliable avec une autonomie de 50 km et un moteur de 250W.",
+        "prix": 1000
+    },
+    {   "id": 5,
+        "nom": "Télévision 4K",
+        "description": "Une télévision 4K de 55 pouces avec HDR et smart TV intégrée.",
+        "prix": 700
+    }
+     ]
+}
+  
