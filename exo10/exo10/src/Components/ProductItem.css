@@ -1,0 +1,17 @@
+.cardProduct{
+    display: 	flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn-modify{
+    background-color: rgb(7, 105, 7);
+    color: white;
+}
+.btn-delete{
+    background-color: red;
+    color: white;
+}
+.container-tableau{
+    display: flex;
+    flex-direction: row;
+}
